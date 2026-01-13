@@ -92,9 +92,6 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-# Auto-refresh every 5 seconds for real-time data
-st.autorefresh(interval=5000)
-
 # ========== SIDEBAR ==========
 st.sidebar.title("Pengaturan")
 
